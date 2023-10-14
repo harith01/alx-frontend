@@ -192,7 +192,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     clear: both;
   }
 
-  [class^="col-1"] {
+  [class^="col-"] {
     float: left;
     padding: 0.5rem;
   }

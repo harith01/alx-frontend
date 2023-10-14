@@ -211,6 +211,6 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     display: block;
   }
 
-  .social-link svg {
+  .social-link > svg {
     fill: var(--text-color);
   }

@@ -305,7 +305,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     left: var(--header-logo-link-left);
   }
 
-  nav .nav-link::before {
+  .nav .nav-link::before {
     content: "";
     position: absolute;
     top: 0;

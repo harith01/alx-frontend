@@ -81,7 +81,7 @@ details{display:block}summary{display:list-item}template{display:none}[hidden]{d
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem;
-    --nav-item-link-hover: var(--color-primary);
+    --nav-item-link-hover: var(--color-white);
 
     /* Button custom properties  */
     --button-display: inline-block;
@@ -315,6 +315,15 @@ ul.row {
     padding: 0.5rem 1rem;
 }
 
+.nav .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 0.2rem;
+}
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
